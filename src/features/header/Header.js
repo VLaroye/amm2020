@@ -1,8 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 import media from 'utils/media';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import ScrollAnimation from 'react-animate-on-scroll';
 
 const Container = styled.div`
   width: 100%;
