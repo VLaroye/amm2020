@@ -6,8 +6,8 @@ import fond from 'assets/fond.png';
 const Image = styled.img`
   position:absolute;
   top: 0;
-  object-fit: contain;
-  width: 100%;
+  width: 100vw;
+  height: 100vh;
   z-index: 0;
 `;
 const Background = () => {

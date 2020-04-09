@@ -4,7 +4,79 @@ import media from 'utils/media';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import ScrollAnimation from 'react-animate-on-scroll';
 
-const Text = styled.div`
+const Container = styled.div`
+  width: 100%;
+
+  display: flex;
+  position: relative;
+  margin-top: 10em;
+`;
+
+const DateContainer = styled.div`
+  display: flex;
+  position: relative;
+  left: 100px;
+  text-transform: uppercase;
+
+  #name {
+    color: white;
+    background-color: #111025;
+    padding: 0 5rem 0 1.5rem;
+    text-align: justify;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-weight: bold;
+    line-height: 1em;
+  }
+
+  #date {
+    position: relative;
+    right: 3em;
+    width: 6em;
+    height: 6em;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #111025;
+
+    box-shadow: -3px 0 15px #411D7B;
+
+    background: rgb(132,171,104);
+    background: linear-gradient(135deg, rgba(132,171,104,1) 0%, rgba(63,172,152,1) 46%);
+
+    span {
+      font-weight: bold;
+      font-size: 3em;
+      line-height: 0.8em;
+    }
+  }
+
+  ${media.desktop`
+    left: 1200px;
+  `}
+  
+`;
+
+const Header = () => {
+  return (
+    <Container>
+      <DateContainer>
+        <div id="name">
+          <span>AMM</span><span>Fest</span>
+        </div>
+        <div id="date"><span>25</span> Juillet</div>
+      </DateContainer>
+    </Container>
+  )
+};
+
+export default Header;
+
+/*const Text = styled.div`
   color: white;
   position: relative;
   margin: 10em 2rem 2rem 2rem;
@@ -179,4 +251,5 @@ const Header = () => {
     )
 };
 
-export default Header; 
+export default Header;
+*/

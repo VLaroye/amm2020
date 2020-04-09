@@ -16,7 +16,22 @@ body {
   -moz-osx-font-smoothing: grayscale;
 
   width: 100vw;
+  height: 100%;
   overflow-x: hidden;
+  
+  background: url("./assets/fond.png"), rgb(77,35,142);
+  background: url("./assets/fond.png"), radial-gradient(circle, rgba(77,35,142,1) 0%, rgba(1,0,25,1) 61%);
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+
 }
 
 a:visited {

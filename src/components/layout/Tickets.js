@@ -4,8 +4,9 @@ import media from 'utils/media';
 
 const Container = styled.div`
   font-family: 'Roboto Condensed';
-  background: linear-gradient(to bottom, rgba(242,43,66,1) 0%, rgba(254,113,13,1) 100%);
-  position:absolute;
+  background: rgb(132,171,104);
+  background: linear-gradient(180deg, #795d86 0%, #998068 80%);
+  position:fixed;
   z-index: 2;
   right: 0%;
   text-transform: uppercase;

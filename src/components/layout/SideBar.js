@@ -37,7 +37,7 @@ const SideBar = ({ isOpen }) => {
       padding: '0'
     },
     bmMenu: {
-      background: 'linear-gradient(to bottom, rgba(242,43,66,1) 0%, rgba(254,113,13,1) 100%)',
+      background: 'linear-gradient(180deg, rgba(132,171,104,1) 0%, rgba(63,172,152,1) 46%)',
       padding: '2.5em 2em 0',
       fontSize: '1.5em'
     },
