@@ -1,5 +1,4 @@
 // IMAGE LINE-UP
-import FR from 'assets/line-up/GryGry.jpg';
 import GryGry from 'assets/line-up/GryGry.jpg';
 import LB_LU from 'assets/line-up/LB.jpg';
 import BB_LU from 'assets/line-up/BB.jpg';
@@ -11,12 +10,9 @@ import Glauque from 'assets/artist/Glauque.jpg';
 import BB from 'assets/artist/BB.jpg';
 import LB from 'assets/artist/LB.jpg';
 import AnaDiaz from 'assets/artist/AnaDiaz.jpg';
-import Cellini from 'assets/artist/Cellini.png';
 import Robby from 'assets/artist/Robby.png';
 import TomaRey from 'assets/artist/TomaRey.png';
 import Ferqli from 'assets/artist/Ferqli.png';
-import BluSamu from 'assets/artist/BluSamu.png';
-import LaFraicheur from 'assets/artist/LaFraicheur.png';
 import Boussole from 'assets/artist/boussole.jpg';
 
 export default {

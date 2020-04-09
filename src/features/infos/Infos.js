@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
-import { AppBar, Tabs, Tab, Grid, Card } from '@material-ui/core'; 
+import { Grid, Card } from '@material-ui/core'; 
 import media from 'utils/media';
 import SectionTitle from 'components/SectionTitle';
 import Tooltip from '@material-ui/core/Tooltip';
