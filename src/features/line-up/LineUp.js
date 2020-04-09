@@ -10,6 +10,7 @@ import andMoreImg from 'assets/ANDMORE.png';
 import artists from 'constants.js';
 
 const LineUpContainer = styled.div`
+  border: green 5px solid
   display: flex;
   flex-wrap: wrap;
   margin: auto;

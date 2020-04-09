@@ -1,21 +1,16 @@
 // IMAGE LINE-UP
-import YouManLU from 'assets/line-up/YouMan.jpg';
-import BafangLU from 'assets/line-up/Bafang.jpg';
-import AMCLU from 'assets/line-up/AMC.jpg';
-import BlackwaveLU from 'assets/line-up/Blackwave.jpg';
-import CelliniLU from 'assets/line-up/Cellini.png';
-import RobbyLU from 'assets/line-up/Robby.jpg';
-import FerqliLU from 'assets/line-up/Ferqli.jpg';
-import TomaReyLU from 'assets/line-up/TomaRey.png';
-import BluSamuLU from 'assets/line-up/BluSamu.png';
-import LaFraicheurLU from 'assets/line-up/LaFraicheur.jpg';
-import BoussoleLU from 'assets/line-up/boussole.jpg';
+import FR from 'assets/line-up/GryGry.jpg';
+import GryGry from 'assets/line-up/GryGry.jpg';
+import LB_LU from 'assets/line-up/LB.jpg';
+import BB_LU from 'assets/line-up/BB.jpg';
+import Glauque_LU from 'assets/line-up/Glauque.jpg';
+import AnaDiaz_LU from 'assets/line-up/AnaDiaz.jpg';
 
 // IMAGE ARTIST 
-import YouMan from 'assets/artist/YouMan.png';
-import Bafang from 'assets/artist/Bafang.png';
-import AMC from 'assets/artist/AMC.jpg';
-import Blackwave from 'assets/artist/Blackwave.png';
+import Glauque from 'assets/artist/Glauque.jpg';
+import BB from 'assets/artist/BB.jpg';
+import LB from 'assets/artist/LB.jpg';
+import AnaDiaz from 'assets/artist/AnaDiaz.jpg';
 import Cellini from 'assets/artist/Cellini.png';
 import Robby from 'assets/artist/Robby.png';
 import TomaRey from 'assets/artist/TomaRey.png';
@@ -25,9 +20,9 @@ import LaFraicheur from 'assets/artist/LaFraicheur.png';
 import Boussole from 'assets/artist/boussole.jpg';
 
 export default {
-  blusamu: {
-    id: 'blusamu',
-    name: 'Blu Samu',
+  FR: {
+    id: 'FR',
+    name: 'Felician & Rocta',
     style: 'Rap / Hip Hop | Samedi 20 Juillet',
     description: {
       first : 'Du haut de ses 23ans, Blu Samu a fait ses débuts il y a quelques années, alors âgée de 19ans. Mais cela n’empêche qu’elle exploite un registre assez large: du hip-hop à la soul, sans oublier le funk.',
@@ -37,76 +32,74 @@ export default {
       soundcloud: 'https://soundcloud.com/salamanderijn',
       facebook: 'https://www.facebook.com/BluSamu/',
     },
-    lineUpImg: BluSamuLU,
-    artistImg: BluSamu,
+    lineUpImg: LB_LU,
+    artistImg: LB,
     video: '8zknyJcEiy4',
   },
-  lafraicheur: {
-    id: 'lafraicheur',
-    name: 'La Fraîcheur',
-    style: 'Deep House / Techno Beats| Samedi 20 Juillet',
+  LB: {
+    id: 'LB',
+    name: 'LB aka Labat',
+    style: 'Jazz / Hip-Hop',
     description: {
-      first : 'Depuis plus de dix ans, d\'abord à Paris, puis à Montréal et maintenant à Berlin, La Fraîcheur prépare son propre mélange de House & beats Techno, se faisant un nom avec des sets techno puissants et chargés d’émotions.',
-      second : 'Elle a fait des tournées partout en Europe, en Amérique du Nord et du Sud, et Japon, notamment aux festivals Burning Man, Fusion et Garbicz ou des clubs célèbres tels que Tresor, About Blank, KitKat Club, Prince Charles Kater Holzig pour en nommer quelques-uns.',
+      first : 'LB aka LABAT est un vinyl collector et MPC Workaho-lic passionné de jazz, de hip-hop et de sonorités soulful.',
+      second : 'Depuis plusieurs années LABAT enchaîne les signatures sur des labels de renoms (D.KO, Wolf, Faces & MCDE). Il lance en 2017 son propre label Alélah Records avec l’artiste Polow et démarre deux ans plus tard une tournée live analogique “1993 Elevation” aux inspirations Detroit & Acid House qui conduira ses machines dans les meilleurs clubs d’Europe.',
     },
+    
     links: {
-      soundcloud: 'https://soundcloud.com/la-fraicheur',
-      facebook: 'https://www.facebook.com/djlafraicheur/',
+      soundcloud: 'https://soundcloud.com/lb-aka-labat',
+      facebook: 'https://www.facebook.com/LbAkaLabat/',
     },
-    lineUpImg: LaFraicheurLU,
-    artistImg: LaFraicheur,
-    video: 'VKEbFYIVZAA',
+    lineUpImg: LB_LU,
+    artistImg: LB,
+    video: '-KvME9LHUbQ',
   },
-  youman: {
-    id: 'youman',
-    name: 'Youman',
-    style: 'Electro | Samedi 20 Juillet',
+  BB: {
+    id: 'BB',
+    name: 'Borokov Borokov',
+    style: 'TECHNO, NEW WAVE DISCO',
     description: {
-      first : 'L’année 2019 marque le retour du duo français You Man sur le devant de la scène électronique. Avec un nouveau maxi, baptisé « Tutti Va Bene », sur le label anglais Nein Records, et un album qui arrive en 2020. Entre électro club et mélodies new wave, la musique de You Man est prête à conquérir les dancefloors du monde entier.',
-      second : 'A l’instar d’autres duos, comme Daft Punk ou The Chemical Brothers, Tepat Huleux et Giac Di Falco sont inséparables depuis leur adolescence. Originaires de Calais, les deux jeunes hommes se rencontrent au lycée en 1996. Depuis, ils ne se sont plus quittés. Ils ont formé plusieurs groupes rock et électro, avant de continuer, seulement tous les deux depuis 2013, sous l’identité You Man. Pour ce nouveau projet, ils abandonnent guitare et basse pour se concentrer sur les machines. Toutes leurs années d’apprentissage ont permis aux deux musiciens de trouver la bonne formule et d’offrir un son unique, original, dansant, qu’ils baptisent « Club Wave », soit un savant mélange d’électro club, de mélodies new wave et d’un groove disco déviant, sombre et hypnotique.',
-      third: ''
+      first : '"En grandissant dans les périphéries non urbaines de Anvers, a.omloop, b.van den eynden, n.melis et y.tsakiridis auraient été éduqué aux sons mélancoliques et joyeux coulant des hauuts-parleurs de leurs parents divorcés et souvent été emmenés dans des salons de thé trop éclairés aux alentours de leurs villages d\'origine pour assister aux concerts les plus divers d\'artistes locaux" (De Coster, G. (2016). Early Influences on the development of unurban musical preferences. Verchen : EBO. P.34',
     },
     links: {
-      site: 'http://www.you-man.eu/',
-      soundcloud: 'https://soundcloud.com/you_man',
-      facebook: 'https://www.facebook.com/youmanband',
+      soundcloud: 'https://soundcloud.com/borokovborokov',
+      facebook: 'https://www.facebook.com/borokovborokov',
     },
-    lineUpImg: YouManLU,
-    artistImg: YouMan,
-    video: 'PD3RCwNseqQ',
+    lineUpImg: BB_LU,
+    artistImg: BB,
+    video: 'YHBT24FZjMw',
   },
-  blackwave: {
-    id: 'blackwave',
-    name: 'blackwave.',
-    style: 'Hip-Hop / Jazzy | Samedi 20 Juillet',
+  Glauque: {
+    id: 'Glauque',
+    name: 'Glauque',
+    style: 'Ecluse',
     description: {
-      first: 'Blackwave (Willem Ardui et Jaywalker) forment un duo hip-pop anversois. Les messieurs de Blackwave apportent leurs merveilleux grooves des années 90 avec un groupe de musiciens de jazz du Conservatoire d\'Anvers. Leur premier EP \'Mic Check\' est sorti en mai 2017 et a été très bien reçu par la presse néerlandaise et belge.',
-      second: 'Leur single \'Elusive feat\' a maintenant plus de 3,5 millions de flux sur spotify. Leur précédent single "Whasgood ?!" a été loué par Billboard et est un single estival accrocheur, avec des influences de Prince, Outkast et Will Smith. Enfin, «Good Enough» est leur single le plus abouti à ce jour. Avec son ambiance hip-hop old school des années 90, ce titre montre son incroyable talent musical et vocal.',
+      first: 'Réputée pour son calme plat et sa bonhomie « à la belge », la ville de Namur est le terrain de jeux de l’un groupe le plus intriguant du moment. Sur la carte des musiques actuelles, Glauque marque le territoire de son identité forte. Ouverte aux expériences électroniques, la formation modifie l’ADN du hip-hop et explose les codes de la chanson française.',
+      second: 'A la tête de leur propre label Ecluse, les cinq garçons s’affranchissent des codes pour défendre les valeurs d’une esthétique différente, vraiment radicale. En phase avec ses convictions, persuadé du bienfondé de sa démarche, le groupe mise sur l’artisanat, les compétences individuelles et un esprit d’équipe indéfectible. Cette maîtrise totale sur la production se matérialise aujourd’hui sous les coups de pinceaux apposés sur la pochette d’un premier E.P. sans concession. Baptisé ‘Glauque’, l’objet retrace la genèse du projet en cinq morceaux essentiels.',
     },
     links: {
-      site: 'https://www.blackwavedot.com',
-      soundcloud: 'https://soundcloud.com/blackwavedot',
-      facebook: 'https://www.facebook.com/blackwavedot',
+      soundcloud: 'https://soundcloud.com/glauqueband',
+      facebook: 'https://www.facebook.com/glauqueband',
     },
-    lineUpImg: BlackwaveLU,
-    artistImg: Blackwave,
-    video: 'Z4jt9d5ammI',
+    lineUpImg: Glauque_LU,
+    artistImg: Glauque,
+    video: 'ttJKvanxtxg',
   },
-  cellini: {
-    id: 'cellini',
-    name: 'Cellini',
-    style: 'Deep / Emotional | Samedi 20 Juillet',
+  AnaDiaz: {
+    id: 'AnaDiaz',
+    name: 'AnaDiaz',
+    style: 'Rap/RnB',
     description: {
-      first: 'Cellini est un artiste belge aux profondes racines italiennes. Il manie un très large éventail de sons puissants, tantôt profond et émotionnel, tantôt puissant et extatique. Du haut de ses 20 ans, il est encore très jeune mais a pourtant une vision forte de la musique et du son.',
-      second: 'En 2017, Cellini a commencé sa collaboration avec Floorfiller. Seulement quelques mois plus tard, il a ajouté la célèbre boîte de nuit Fuse à sa liste. Avec Fuse, il a fondé un nouveau concept appelé "Cycle Quatre" sur lesquels ils inviteront quelques artistes par an. En lisant l’esprit et l’âme de son public, Cellini vous emmène dans un voyage à travers les parties les plus profondes de la techno et traduit une profondeur infinie en sons audibles. Les lignes entre physique et mental, tangible et surnaturel, l’être humain et la musique s’estompent alors qu’il est sur scène.',
+      first: 'Ana Diaz est une jeune chanteuse, auteure compositrice et interprète. Elle a le sang espagnol mais elle a grandi à Bruxelles, où sa voix, sous l’impulsion d’une génération au profil similaire, adopte le mélange vibrant et le parler-vrai de la capitale. « Tous les genres sont permis. »',
+      second: 'Elle nous fait voyager dans son univers : un univers à la fois introspectif et sociétal tout en restant positive sur des sujets parfois sensibles et tristes.',
+      third: 'Son premier EP « REC_FINAL », inspiré par sa vie, ses expériences et celles de son entourage, est sorti le 13 septembre 2019, et composé par Iliona Roulin et enregistré dans le studio "L\'Oeil Ecoute Laboratoire" à Bruxelles.'
     },
     links: {
-      soundcloud: 'https://soundcloud.com/cellinimusic/',
-      facebook: 'https://www.facebook.com/Cellinimusic/',
+      soundcloud: 'https://soundcloud.com/anadiazofficial',
+      facebook: 'https://www.facebook.com/iamdiazana/',
     },
-    lineUpImg: CelliniLU,
-    artistImg: Cellini,
-    video: 'zqVfseH1dbA',
+    lineUpImg: AnaDiaz_LU,
+    artistImg: AnaDiaz,
+    video: 'omiiJRa-6qA',
   },
   bafang: {
     id: 'bafang',
@@ -121,8 +114,8 @@ export default {
       soundcloud: 'https://soundcloud.com/bafang?fbclid=IwAR2zrAjtJTopWI6u_8Zm9OPyjgAye0x9CY5-FKinANRPeDnw3mzkqQe6Yt4',
       facebook: 'https://www.facebook.com/BAFANGOFFICIEL/',
     },
-    lineUpImg: BafangLU,
-    artistImg: Bafang,
+    lineUpImg: GryGry,
+    artistImg: BB,
     video: '3cK2b6Z2VdI'
   },
   anglemortetclignotant: {
@@ -139,8 +132,8 @@ export default {
       soundcloud: 'https://soundcloud.com/angle-mort-clignotant/des-frites-putain-et-de-la-sauce-bordel',
       facebook: 'https://www.facebook.com/anglemortetclignotant/',
     },
-    lineUpImg: AMCLU, 
-    artistImg: AMC,
+    lineUpImg: GryGry, 
+    artistImg: LB,
     video: '1Vba2TGa830',
   },
   robby: {
@@ -155,7 +148,7 @@ export default {
       soundcloud: 'https://soundcloud.com/robbyandstupidflash',
       facebook: 'https://www.facebook.com/robbyandstupidflash',
     },
-    lineUpImg:  RobbyLU,
+    lineUpImg:  GryGry,
     artistImg: Robby,
     video: '-wX5dOxMXEQ',
   },
@@ -172,7 +165,7 @@ export default {
       soundcloud: 'https://soundcloud.com/ferqli',
       facebook: 'https://www.facebook.com/F3rqli',
     },
-    lineUpImg: FerqliLU,
+    lineUpImg: GryGry,
     artistImg: Ferqli,
     video: 'ksHwr2eNJUc',
   },
@@ -190,7 +183,7 @@ export default {
       soundcloud: '',
       facebook: '',
     },
-    lineUpImg: TomaReyLU,
+    lineUpImg: GryGry,
     artistImg: TomaRey,
     video: null,
   },
@@ -207,7 +200,7 @@ export default {
       site: 'https://www.conceptspectacle.com/spectacles-cinquieme-element.php',
       facebook: 'https://www.facebook.com/Laboussoleconceptsetspectacles/',
     },
-    lineUpImg: BoussoleLU,
+    lineUpImg: GryGry,
     artistImg: Boussole,
     video: null,
   },

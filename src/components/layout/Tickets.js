@@ -36,7 +36,7 @@ const Tickets = () => {
   return (
     <a href="https://www.weezevent.com/amm-fest-5" target="_blank" rel="noopener noreferrer">
       <Container>
-        Tickets
+        Billetterie
       </Container>
     </a>
   )

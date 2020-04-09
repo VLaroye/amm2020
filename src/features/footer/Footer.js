@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 const Container = styled.div`
   width: 100%;
-  background-color: #042b26;
+  background-color: #3FAC98;
   color: white;
   padding: 2em 1.5em;
   box-sizing: border-box;
