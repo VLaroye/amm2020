@@ -43,3 +43,20 @@ code {
     monospace;
 }
 
+@keyframes neon6 {
+  from {
+    text-shadow: 0 0 2px #fff, 0 0 5px #fff, 0 0 10px rgba(63,172,152,1), 0 0 17px rgba(63,172,152,1), 0 0 20px rgba(63,172,152,1);
+  }
+  to {
+    text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 5px rgba(63,172,152,1), 0 0 8px rgba(63,172,152,1), 0 0 10px rgba(63,172,152,1);
+  }
+}
+
+@keyframes box-neon6 {
+  from {
+    box-shadow: 0 0 10px rgba(63,172,152,1), 0 0 17px rgba(63,172,152,1), 0 0 20px rgba(63,172,152,1);
+  }
+  to {
+    box-shadow: 0 0 5px rgba(63,172,152,1), 0 0 8px rgba(63,172,152,1), 0 0 10px rgba(63,172,152,1);
+  }
+}

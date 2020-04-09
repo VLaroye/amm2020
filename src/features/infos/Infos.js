@@ -24,7 +24,7 @@ const Container = styled.div`
   `}
 
   ${media.desktop`
-    max-width: 60%;
+    max-width: 50%;
   `}
 
 `;
@@ -42,7 +42,6 @@ const StyledCard = styled(Card)`
       width: 50%;
       height: 450px;
   `}
-
   }
 `;
 
@@ -124,7 +123,7 @@ const InformationSaturday = styled.div`
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    background-color:#64e9a2;
+    background-color:#3FAC98;
     min-width: 20%; 
   }
 

@@ -112,7 +112,7 @@ const Footer = () => {
         Mentions légales
       </Link>
       <div>
-        Copyright © 2019 <br/>Agathe Gossey & Vincent Laroye.<br />Tous droits réservés.
+        Copyright © 2020 <br/>Agathe Gossey & Vincent Laroye.<br />Tous droits réservés.
       </div>
     </div>
     

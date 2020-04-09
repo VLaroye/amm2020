@@ -1,11 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styled from 'styled-components';
 import media from 'utils/media';
 
 const Container = styled.div`
   font-family: 'Roboto Condensed';
-  background: rgb(132,171,104);
-  background: linear-gradient(180deg, #795d86 0%, #998068 80%);
+  background-color: #010019;
+  border: 2px solid #FF9900;
+  border-top: none;
+  border-right: none;
   position:fixed;
   z-index: 2;
   right: 0%;
@@ -33,10 +35,16 @@ const Container = styled.div`
 `;
 
 const Tickets = () => {
+  const [isActive, activate] = useState(true);
+
+  setTimeout(() => {
+    activate(!isActive);
+  }, 5000);
+
   return (
     <a href="https://www.weezevent.com/amm-fest-5" target="_blank" rel="noopener noreferrer">
-      <Container>
-        Billetterie
+      <Container className="neon">
+        <span>Billetterie</span>
       </Container>
     </a>
   )

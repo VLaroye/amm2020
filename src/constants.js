@@ -58,7 +58,8 @@ export default {
     name: 'Borokov Borokov',
     style: 'TECHNO, NEW WAVE DISCO',
     description: {
-      first : '"En grandissant dans les périphéries non urbaines de Anvers, a.omloop, b.van den eynden, n.melis et y.tsakiridis auraient été éduqué aux sons mélancoliques et joyeux coulant des hauuts-parleurs de leurs parents divorcés et souvent été emmenés dans des salons de thé trop éclairés aux alentours de leurs villages d\'origine pour assister aux concerts les plus divers d\'artistes locaux" (De Coster, G. (2016). Early Influences on the development of unurban musical preferences. Verchen : EBO. P.34',
+      first : '"En grandissant dans les périphéries non urbaines de Anvers, a.omloop, b.van den eynden, n.melis et y.tsakiridis auraient été éduqué aux sons mélancoliques et joyeux coulant des hauuts-parleurs de leurs parents divorcés et souvent été emmenés dans des salons de thé trop éclairés aux alentours de leurs villages d\'origine pour assister aux concerts les plus divers d\'artistes locaux"',
+      second: '(De Coster, G. (2016). Early Influences on the development of unurban musical preferences. Verchen : EBO. P.34)'
     },
     links: {
       soundcloud: 'https://soundcloud.com/borokovborokov',

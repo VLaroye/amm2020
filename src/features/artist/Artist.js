@@ -13,7 +13,7 @@ import ARTISTS from 'constants.js';
 const Container = styled.div`
   margin: 8em auto;
   background-color: white;
-  box-shadow: 5px 30px 100px #245d3d;
+  box-shadow: 2px 2px 25px #010019;
   width: 100%;
 
   a, a:visited {
@@ -34,11 +34,7 @@ const Container = styled.div`
   }
 
   ${media.laptop`
-    width: 80%;
-  `}
-
-  ${media.xxl`
-    width: 70%;
+    width: 40%;
   `}
 `;
 
@@ -51,7 +47,7 @@ const ArtistImg = styled.img`
 const TextContainer = styled.div`
   position: relative;
   display: grid;
-  padding-bottom: 4em;
+  padding-bottom: 2em;
   grid-template-columns: 100%;
   grid-template-rows: auto auto auto auto auto;
 
@@ -96,7 +92,7 @@ const TextContainer = styled.div`
   `}
 
   ${media.xl`
-    margin: 8em auto;
+    margin: 2em auto;
     grid-template-columns: 10% 55% 25% 10%;
     grid-template-rows: auto auto auto;
 
@@ -107,7 +103,6 @@ const TextContainer = styled.div`
   `}
 
   ${media.xxl`
-    margin: 8em auto;
     grid-template-columns: 15% 50% 20% 15%;
   `}
 `;

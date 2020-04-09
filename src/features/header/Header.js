@@ -2,6 +2,9 @@ import React from 'react';
 import styled from 'styled-components';
 import media from 'utils/media';
 
+import ScrollAnimation from 'react-animate-on-scroll';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 const Container = styled.div`
   width: 100%;
   margin-top: 10em;
@@ -28,6 +31,8 @@ const DateContainer = styled.div`
     flex-direction: column;
     font-weight: bold;
     line-height: 1em;
+
+    animation: neon6 1s ease-in-out infinite alternate;
 
     ${media.desktop`
     padding: 1rem 9rem 1rem 2rem;
@@ -81,20 +86,20 @@ const Social = styled.div`
     font-size: 2em;
     margin-top: 0.5em;
     ${media.tablet`
-    margin-left: 4em;
-    display: flex;  
-  `}
+      margin-left: 4em;
+      display: flex;  
+    `}
 
   ${media.tablet`
-   left: 40%
+   left: 40%;
   `}
 
   ${media.desktop`
-    left: 60%
+    left: 60%;
   `}
 
   ${media.xxl`
-    left: 50%
+    left: 50%;
   `}
   }
 
@@ -155,7 +160,7 @@ const Header = () => {
             <a href='https://twitter.com/ArtMassMess/' target="_blank" rel="noopener noreferrer" className="link">
               <FontAwesomeIcon className="icon" id="twitter" icon={['fab', 'twitter']} />
             </a>
-          </ScrollAnimation>   
+          </ScrollAnimation>
         </div>
       </Social>
     </Container>
