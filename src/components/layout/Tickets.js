@@ -5,7 +5,7 @@ import media from 'utils/media';
 const Container = styled.div`
   font-family: 'Roboto Condensed';
   background-color: #010019;
-  border: 2px solid #FF9900;
+  border: 2px solid #fff;
   border-top: none;
   border-right: none;
   position:fixed;
