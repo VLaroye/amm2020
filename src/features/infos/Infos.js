@@ -20,13 +20,8 @@ const Container = styled.div`
   margin-bottom:5em;
 
   ${media.laptop`
-      width: 90%;
+      width: 50%;
   `}
-
-  ${media.desktop`
-    max-width: 50%;
-  `}
-
 `;
 
 const StyledCard = styled(Card)`

@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
 import styled from 'styled-components';
+import ScrollAnimation from 'react-animate-on-scroll';
 import media from 'utils/media';
 
 const Title = styled.h1`
@@ -10,23 +11,16 @@ const Title = styled.h1`
   color: white;
   font-size: 2em;
   margin-top: 2em;
-  transition: all 2s;
-
-
   ${media.xl`
     font-size: 2.6em;
   `}
 `;
 
 const SectionTitle = ({ text }) => {
-  const [isActive, activate] = useState(true);
-
-  setTimeout(() => {
-    activate(!isActive);
-  }, 5000);
-
   return (
-    <Title>{text}</Title> 
+    <ScrollAnimation animateIn='flipInY' animateOnce offset={0}>
+      <Title>{text}</Title>
+    </ScrollAnimation>   
   );
 };
 

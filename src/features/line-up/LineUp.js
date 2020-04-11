@@ -67,11 +67,7 @@ const LineUp = () => {
       <LineUpContainer>
         {Object.values(artists).map(artist => (
           <LineUpElement artist={ artist } key={ artist.id } />
-        ))}
-        <LineUpElt>
-          <img src={andMoreImg} alt="and more..."/>		
-        </LineUpElt>
-       
+        ))}       
       </LineUpContainer>
     </div>
   )

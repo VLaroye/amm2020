@@ -10,7 +10,7 @@ const Image = styled.img`
   display: flex;
 
   ${media.laptop`
-    width: 80%;
+    width: 50%;
     margin: auto;
   `} 
 `;

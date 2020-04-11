@@ -1,58 +1,26 @@
 // IMAGE LINE-UP
-import GryGry from 'assets/line-up/GryGry.jpg';
+import GryGry_LU from 'assets/line-up/GryGry.jpg';
 import LB_LU from 'assets/line-up/LB.jpg';
 import BB_LU from 'assets/line-up/BB.jpg';
 import Glauque_LU from 'assets/line-up/Glauque.jpg';
 import AnaDiaz_LU from 'assets/line-up/AnaDiaz.jpg';
+import FR_LU from 'assets/line-up/FR.jpg';
 
 // IMAGE ARTIST 
 import Glauque from 'assets/artist/Glauque.jpg';
 import BB from 'assets/artist/BB.jpg';
 import LB from 'assets/artist/LB.jpg';
 import AnaDiaz from 'assets/artist/AnaDiaz.jpg';
-import Robby from 'assets/artist/Robby.png';
-import TomaRey from 'assets/artist/TomaRey.png';
+import GryGry from 'assets/artist/GG.jpg';
+import FR from 'assets/artist/FR.jpeg';
 import Ferqli from 'assets/artist/Ferqli.png';
 import Boussole from 'assets/artist/boussole.jpg';
 
 export default {
-  FR: {
-    id: 'FR',
-    name: 'Felician & Rocta',
-    style: 'Rap / Hip Hop | Samedi 20 Juillet',
-    description: {
-      first : 'Du haut de ses 23ans, Blu Samu a fait ses débuts il y a quelques années, alors âgée de 19ans. Mais cela n’empêche qu’elle exploite un registre assez large: du hip-hop à la soul, sans oublier le funk.',
-      second : 'Ses différentes compositions sont le reflet de ses pensées, lieu où la pudeur n’a pas sa place. Suite à sa rencontre avec le 77, ces derniers l’ayant pris sous leurs ailes, Blu a décidé de quitter Anvers pour s’installer à Bruxelles. Depuis, elle explore de nouveaux terrains en collaborant avec de nouvelles personnes, ce qui lui permet d’en apprendre sur ceux qui l’entourent.',
-    },
-    links: {
-      soundcloud: 'https://soundcloud.com/salamanderijn',
-      facebook: 'https://www.facebook.com/BluSamu/',
-    },
-    lineUpImg: LB_LU,
-    artistImg: LB,
-    video: '8zknyJcEiy4',
-  },
-  LB: {
-    id: 'LB',
-    name: 'LB aka Labat',
-    style: 'Jazz / Hip-Hop',
-    description: {
-      first : 'LB aka LABAT est un vinyl collector et MPC Workaho-lic passionné de jazz, de hip-hop et de sonorités soulful.',
-      second : 'Depuis plusieurs années LABAT enchaîne les signatures sur des labels de renoms (D.KO, Wolf, Faces & MCDE). Il lance en 2017 son propre label Alélah Records avec l’artiste Polow et démarre deux ans plus tard une tournée live analogique “1993 Elevation” aux inspirations Detroit & Acid House qui conduira ses machines dans les meilleurs clubs d’Europe.',
-    },
-    
-    links: {
-      soundcloud: 'https://soundcloud.com/lb-aka-labat',
-      facebook: 'https://www.facebook.com/LbAkaLabat/',
-    },
-    lineUpImg: LB_LU,
-    artistImg: LB,
-    video: '-KvME9LHUbQ',
-  },
   BB: {
     id: 'BB',
     name: 'Borokov Borokov',
-    style: 'TECHNO, NEW WAVE DISCO',
+    style: 'Live analogique Electronique',
     description: {
       first : '"En grandissant dans les périphéries non urbaines de Anvers, a.omloop, b.van den eynden, n.melis et y.tsakiridis auraient été éduqué aux sons mélancoliques et joyeux coulant des hauuts-parleurs de leurs parents divorcés et souvent été emmenés dans des salons de thé trop éclairés aux alentours de leurs villages d\'origine pour assister aux concerts les plus divers d\'artistes locaux"',
       second: '(De Coster, G. (2016). Early Influences on the development of unurban musical preferences. Verchen : EBO. P.34)'
@@ -68,7 +36,7 @@ export default {
   Glauque: {
     id: 'Glauque',
     name: 'Glauque',
-    style: 'Ecluse',
+    style: 'Rap',
     description: {
       first: 'Réputée pour son calme plat et sa bonhomie « à la belge », la ville de Namur est le terrain de jeux de l’un groupe le plus intriguant du moment. Sur la carte des musiques actuelles, Glauque marque le territoire de son identité forte. Ouverte aux expériences électroniques, la formation modifie l’ADN du hip-hop et explose les codes de la chanson française.',
       second: 'A la tête de leur propre label Ecluse, les cinq garçons s’affranchissent des codes pour défendre les valeurs d’une esthétique différente, vraiment radicale. En phase avec ses convictions, persuadé du bienfondé de sa démarche, le groupe mise sur l’artisanat, les compétences individuelles et un esprit d’équipe indéfectible. Cette maîtrise totale sur la production se matérialise aujourd’hui sous les coups de pinceaux apposés sur la pochette d’un premier E.P. sans concession. Baptisé ‘Glauque’, l’objet retrace la genèse du projet en cinq morceaux essentiels.',
@@ -81,7 +49,40 @@ export default {
     artistImg: Glauque,
     video: 'ttJKvanxtxg',
   },
-  AnaDiaz: {
+  LB: {
+    id: 'LB',
+    name: 'LB aka Labat',
+    style: 'Dance/Electronique',
+    description: {
+      first : 'LB aka LABAT est un vinyl collector et MPC Workaho-lic passionné de jazz, de hip-hop et de sonorités soulful.',
+      second : 'Depuis plusieurs années LABAT enchaîne les signatures sur des labels de renoms (D.KO, Wolf, Faces & MCDE). Il lance en 2017 son propre label Alélah Records avec l’artiste Polow et démarre deux ans plus tard une tournée live analogique “1993 Elevation” aux inspirations Detroit & Acid House qui conduira ses machines dans les meilleurs clubs d’Europe.',
+    },
+    
+    links: {
+      soundcloud: 'https://soundcloud.com/lb-aka-labat',
+      facebook: 'https://www.facebook.com/LbAkaLabat/',
+    },
+    lineUpImg: LB_LU,
+    artistImg: LB,
+    video: '-KvME9LHUbQ',
+  },
+  FR: {
+    id: 'FR',
+    name: 'Felician & Rocta',
+    style: 'House',
+    description: {
+      first : '',
+      second : '',
+    },
+    links: {
+      soundcloud: 'https://soundcloud.com/antoine-rcrt',
+      facebook: 'https://www.facebook.com/Felicianwoes/',
+    },
+    lineUpImg: FR_LU,
+    artistImg: FR,
+    video: '',
+  },
+ /* AnaDiaz: {
     id: 'AnaDiaz',
     name: 'AnaDiaz',
     style: 'Rap/RnB',
@@ -98,22 +99,21 @@ export default {
     artistImg: AnaDiaz,
     video: 'omiiJRa-6qA',
   },
-  bafang: {
-    id: 'bafang',
-    name: 'Bafang',
-    style: 'Rock Punk Afro | Samedi 20 Juillet',
+  grygry: {
+    id: 'GryGry',
+    name: 'Les Grys Grys',
+    style: 'ROCK PSYCH-PUNK',
     description: {
-      first: 'Issue d\'un terroir sans précédents, comme si le Niger prenait sa source dans la Manche. BAFANG est une pirogue dans l\'espace.',
-      second: 'Entre déserts inter-connectiques où se mélangent les acteurs dans un lien social évident, vous entrerez sans fermer la porte derrière vous. Aux confluents de vos limites. Musique tribale, celtique, éphémère, vouée à rester dans l\'intelligible ou à retourner dans l\'informatif. Vous en conviendez. Mais certes, comme tout le monde le sait certaines histoires ne se racontent pas...',
+      first: 'En 2010, cinq gamins qui s’emmerdaient dans leur ville cévenole ont décidé de créer leur groupe et de partir sur les traces de Bo Diddley et Muddy Waters. Reprises obscures et survitaminées des Yardbirds, Master Apprentices, Q65, arrangements explosifs, énergie à revendre, en quelques années, les principaux festivals indépendants de France et d’Europe leur ont ouvert leur scène: Le Funtastic et Purple Week-End en Espagne, le Beat Bespoké à Londres, le Festival Beat en Italie, le Berlin Beat Explosion en Allemagne, la liste est longue. Invités par le festival Tiki Oasis à San Diego, une tournée américaine a suivi en 2017.',
+      second: 'Au fil des années le son des Grys-Grys s’est teinté de psych-punk, pour un résultat plus personnel et actuel, qui pourrait rappeler «Help» des Oh Sees, «Nonagon Infinity» de King Gizzard & the Wizard Lizard ou encore «Fuzz» le side project de Ty Segall et Charles Moothart. Ils ont acquis l’expérience nécessaire pour enfin atteindre leur but suprême : la confection toujours difficile du premier album, qui plus est, album de compositions originales. L’enregistrement s’est réalisé dans les studios Toe Rag à Londres sous la direction du sorcier Liam Watson déjà producteur de l’immense succès «Seven Nation Army» des White Stripes. Le disque tant attendu par une cohorte de fans est fin prêt. Les murs de la maison rock’n’roll n’ont pas fini de trembler...',
     },
     links: {
-      youtube: 'https://www.youtube.com/channel/UCDte3hZUCOweKrrRDwntXxg',
-      soundcloud: 'https://soundcloud.com/bafang?fbclid=IwAR2zrAjtJTopWI6u_8Zm9OPyjgAye0x9CY5-FKinANRPeDnw3mzkqQe6Yt4',
-      facebook: 'https://www.facebook.com/BAFANGOFFICIEL/',
+      site: 'https://avfrecs.tumblr.com/',
+      facebook: 'https://www.facebook.com/LesGrysGrys/',
     },
-    lineUpImg: GryGry,
-    artistImg: BB,
-    video: '3cK2b6Z2VdI'
+    lineUpImg: GryGry_LU,
+    artistImg: GryGry,
+    video: ''
   },
   anglemortetclignotant: {
     id: 'anglemortetclignotant',
@@ -146,7 +146,7 @@ export default {
       facebook: 'https://www.facebook.com/robbyandstupidflash',
     },
     lineUpImg:  GryGry,
-    artistImg: Robby,
+    artistImg: '',
     video: '-wX5dOxMXEQ',
   },
   ferqli: {
@@ -181,7 +181,7 @@ export default {
       facebook: '',
     },
     lineUpImg: GryGry,
-    artistImg: TomaRey,
+    artistImg: '',
     video: null,
   },
   boussole: {
@@ -201,5 +201,6 @@ export default {
     artistImg: Boussole,
     video: null,
   },
+  */
 };
 

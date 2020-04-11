@@ -99,8 +99,7 @@ const Container = styled.div`
 
 const Footer = () => {
   return (
-  <Container>   
-
+  <Container>
     <h1 className="sponso">
       <Link to={`/sponso`}>
         <FontAwesomeIcon className="heart" icon={['fa', 'heart']} />
